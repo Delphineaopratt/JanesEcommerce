@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Header Styles */
@@ -42,6 +42,7 @@ nav a {
     color: #333;
     font-weight: 500;
     transition: color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav a:hover {
@@ -80,11 +81,13 @@ nav a:hover {
 .hero h2 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cta-button {

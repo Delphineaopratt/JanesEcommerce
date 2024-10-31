@@ -1,7 +1,7 @@
 /*homepage.css*/
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   header {
@@ -61,6 +61,7 @@ body {
   .hero-text {
     position: relative;
     z-index: 1;
+    font-family: 'Poppins', sans-serif;
   }
   
   .hero h1 {
@@ -72,6 +73,7 @@ body {
   .hero p {
     font-size: 24px;
     margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
   }
   
   .hero-buttons {
@@ -89,11 +91,13 @@ body {
   .sign-in {
     background-color: #1a1a1a;
     color: white;
+    font-family: 'Poppins', sans-serif;
   }
   
   .sign-up {
     background-color: white;
     color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
   }
   
   footer {
