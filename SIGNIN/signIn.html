@@ -4,74 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up - janE's</title>
-    <link rel="stylesheet" href="design.css" />
+    <link rel="stylesheet" href="./signin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="logo">
-        <h1>janE's</h1>
+        <a href="/HOMEPAGE/homepage.html">
+          <h1>janE's</h1>
+        </a>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shoes</a></li>
-          <li><a href="#">Custom Shoes</a></li>
-        </ul>
-      </nav>
+ 
     </header>
     <main>
       <section class="signup-form">
-        <h2>Sign Up</h2>
+        <h2>Log In</h2>
         <form>
-          <div class="form-group">
-            <label for="fullname">Full name *</label>
-            <input
-              type="text"
-              id="fullname"
-              name="fullname"
-              value="Martin Dallas"
-            />
-          </div>
           <div class="form-group">
             <label for="email">Email *</label>
             <input
               type="email"
               id="email"
               name="email"
-              value="dallmartin71@gmail.com"
-            />
-          </div>
-          <div class="form-group">
-            <label for="username">Username *</label>
-            <input
-              type="text"
-              id="username"
-              name="username"
-              value="Martindallas"
+              placeholder="Enter your email"
             />
           </div>
           <div class="form-group">
             <label for="password">Password *</label>
-            <input type="password" id="password" name="password" />
-          </div>
-          <div class="form-group">
-            <label for="confirm-password">Confirm Password *</label>
-            <input
-              type="password"
-              id="confirm-password"
-              name="confirm-password"
+            <input 
+              type="password" 
+              id="password" 
+              name="password"
+              placeholder="Enter your password"
             />
           </div>
-          <div class="form-group">
-            <label for="address">Address *</label>
-            <input
-              type="text"
-              id="address"
-              name="address"
-              value="31st st, tantra hill, Accra"
-            />
-          </div>
-          <button type="submit">Sign Up</button>
+          <button type="submit">Log In</button>
+          <p class="signup-link">Don't have an account? <a href="/SIGNUP/signup.html">Sign up</a></p>
         </form>
       </section>
     </main>
