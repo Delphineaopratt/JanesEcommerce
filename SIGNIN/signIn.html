@@ -41,10 +41,15 @@
               placeholder="Enter your password"
             />
           </div>
-          <button type="submit">Log In</button>
+          <button type="button" onclick="redirectToMainPage()">Log In</button>
           <p class="signup-link">Don't have an account? <a href="/SIGNUP/signup.html">Sign up</a></p>
         </form>
       </section>
     </main>
+    <script>
+      function redirectToMainPage() {
+          window.location.href = '/mainpage/mainpage.html';
+      }
+  </script>
   </body>
 </html>
